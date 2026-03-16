@@ -25,6 +25,11 @@
    In normal RSA:
    ```
    c ≡ m^e (mod n)
+   where:
+      c = ciphertext (encrypted message)
+      m = plaintext (original message)
+      n = modulus, part of the public key, it is calculated from two large prime numbers: n = p x q
+      e = public exponent, part of the public key (usually 65,537)
    ```
    But if the message is small enough such that:
    ```
@@ -35,7 +40,9 @@
    c = m^e
    ```
    
-4. **Create a test .py using nano**
+3. Since we have the value of c, e, we can compute for the value of m.
+   
+5. **Create a test .py using nano**
    ```sh
    import gmpy2
 
