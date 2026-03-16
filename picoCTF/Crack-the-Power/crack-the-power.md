@@ -10,14 +10,13 @@
 
 ## Challenge
 
-(screenshot)
+![](image.png)
 
 ## Solution Steps
 
-1. **Clone the repository**
+1. **Download the message**
    ```sh
-   git clone <your-repo-url>
-   cd FINALE
+   wget https://challenge-files.picoctf.net/c_amiable_citadel/fddf51f15bd9f4145c4a4ebee5dfe7994bdab6393453f41f02c59cfd23a87fda/message.txt
    ```
 
 2. 
